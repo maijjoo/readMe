@@ -1,0 +1,84 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  height: 3em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin: 1em;
+  box-shadow: 0.2em 0.2em 1px lightgray;
+  border-radius: 0.4cm;
+}
+
+#logo {
+  width: 11em;
+  font-family: D2Coding;
+  font-size: large;
+  font-weight: bold;
+  text-shadow: 0.05em 0.05em 3px darkgray;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+#mainTitle {
+  height: 8em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin: 1em;
+  box-shadow: 0.2em 0.2em 1px lightgray;
+  border-radius: 0.4cm;
+  text-align: center;
+  background-image: url("/readMe/images/images/img_bg_1.jpg");
+}
+
+#mainTitle h1 {
+  font-family: D2Coding;
+  font-size: 200;
+  margin-bottom: 1em;
+}
+
+#projectContainer {
+  display: flex;
+  height: 25em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin: 1em;
+  box-shadow: 0.2em 0.2em 1px lightgray;
+  border-radius: 0.4cm;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projectArea {
+  width: 25% auto;
+  height: 40%;
+  padding: 5px 45px;
+  margin: 5px;
+  box-shadow: 0.2em 0.2em 1px lightgray;
+  border-radius: 0.4cm;
+  text-align: center;
+  background-image: url("/readMe/images/images/portfolio-3.jpg");
+}
+
+.projectArea h1 {
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.projectArea p {
+  font-size: 1em;
+}
